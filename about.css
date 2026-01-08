@@ -840,6 +840,40 @@ body.light-mode .nav-logo {
   transition: transform 0.1s, left 0.1s, top 0.1s;
 }
 
+#about-testimonials {
+  padding: 3rem 1rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 280px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
 
 .social-links a[aria-label="Instagram"]:hover { color: #e1306c; }
 .social-links a[aria-label="Facebook"]:hover { color: #1877f2; }
